@@ -12,6 +12,9 @@ git push
 * delete local branch
 ```
 git branch -d branch_name
+
+/* or to force delete */
+git branch -D branch_name
 ```
 * delete remote branch
 ```
