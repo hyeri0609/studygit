@@ -27,3 +27,7 @@ git pull upstream master
 /* after that if you want to update to remote repo just do */
 git push
 ```
+* show commit log
+```
+git log --oneline --graph --decorate --all
+```
