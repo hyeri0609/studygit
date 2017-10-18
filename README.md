@@ -31,3 +31,25 @@ git push
 ```
 git log --oneline --graph --decorate --all
 ```
+* reset a specific file to the last-committed state/discard uncommitted changes
+```
+git checkout file_name
+```
+* reset the entire repository to the last committed state
+```
+rm file_name
+git reset --hard
+```
+* reset the entire repository to the last committed state
+```
+rm file_name
+git reset --hard
+```
+* remove untracked files
+```
+git clean -d -x -f
+```
+
+
+
+
