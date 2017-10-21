@@ -39,6 +39,13 @@ git checkout file_name
 ```
 rm file_name
 git reset --hard HEAD~1
+or
+git reset --hard HEAD^
+
+/* to update remote repo after reset*/
+git push -f
+
+
 ```
 * remove untracked files
 ```
