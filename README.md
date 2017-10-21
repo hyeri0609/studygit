@@ -38,7 +38,7 @@ git checkout file_name
 * reset the entire repository to the last committed state
 ```
 rm file_name
-git reset --hard
+git reset --hard HEAD~1
 ```
 * remove untracked files
 ```
