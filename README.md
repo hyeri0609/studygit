@@ -52,6 +52,11 @@ git push -f
 git clean -d -x -f
 ```
 
+* Change remote url
+```
+git remote set-url origin new_url_name
+```
+
 
 
 
