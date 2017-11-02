@@ -1,6 +1,13 @@
 # studygit
 
 ## working with branch
+* create branch
+```
+git branch new_branch
+git checkout new_branch
+/* or */
+git checkout -b new_branch
+```
 * get branch from remote
 ```
 git fetch origin
@@ -27,10 +34,14 @@ git pull upstream master
 /* after that if you want to update to remote repo just do */
 git push
 ```
+
+## logging
 * show commit log
 ```
 git log --oneline --graph --decorate --all
 ```
+
+## reset
 * reset a specific file to the last-committed state/discard uncommitted changes
 ```
 git checkout file_name
@@ -44,18 +55,18 @@ git reset --hard HEAD^
 
 /* to update remote repo after reset*/
 git push -f
-
-
 ```
 * remove untracked files
 ```
 git clean -d -x -f
 ```
 
+## working with remote url
 * Change remote url
 ```
 git remote set-url origin new_url_name
 ```
+
 
 
 
